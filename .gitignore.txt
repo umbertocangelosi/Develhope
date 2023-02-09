@@ -1,6 +1,1 @@
-testo.txt
-
-Exercise Functions-4
-
-Exercise Functions-6
-
+prova.txt

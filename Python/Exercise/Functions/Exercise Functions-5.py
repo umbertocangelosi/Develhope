@@ -5,12 +5,14 @@ for some features and functions you might have to search on the internet do it d
 
 import random 
 
-def random_list_summer():
+def random_list_summer(n_elements=15):
     lista = []
-    for i in range(15):
+    for i in range(n_elements):
         lista.append(random.randint(-100, 100))
 
     print(lista) 
     somma = sum(lista)   
     print(somma)
+
 random_list_summer()
+random_list_summer(34)
